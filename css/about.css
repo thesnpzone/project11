@@ -1,0 +1,299 @@
+.sectionab1 {
+    background: url("../images/bg/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    /* height: 100vh !important; */
+    overflow: hidden;
+}
+
+.mtopab-5 {
+    margin-top: 8rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.btn2 {
+    background-color: #3E70F0;
+    transition: 500ms ease-in;
+    border-radius: 10px;
+    color: #ffffff;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.btn2:hover {
+    color: #ffffff;
+}
+
+
+/* ============================================================================= */
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.testimonial6 {
+    font-family: "Montserrat", sans-serif;
+    /* color: #8d97ad; */
+    font-weight: 300;
+}
+
+
+/* .testimonial6 h1,
+.testimonial6 h2,
+.testimonial6 h3,
+.testimonial6 h4,
+.testimonial6 h5,
+.testimonial6 h6 {
+    color: #3e4555;
+} */
+
+.testimonial6 .font-weight-medium {
+    font-weight: 500;
+}
+
+.testimonial6 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.testimonial6 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.testimonial6 .testi6 {
+    border: 1px solid rgba(120, 130, 140, 0.13);
+    box-shadow: 0px 0px 3rem 10px #49aef136;
+}
+
+.testimonial6 .testi6 .nav-link {
+    border-radius: 0px;
+    margin: 8px -2px 8px 0;
+}
+
+.testimonial6 .testi6 .nav-link img {
+    width: 110px;
+    opacity: 0.5;
+}
+
+.testimonial6 .testi6 .nav-link {
+    color: black;
+    font-size: 1.5rem !important;
+    font-weight: 800;
+}
+
+.testimonial6 .testi6 .nav-link.active {
+    background: transparent;
+    color: #3064d4;
+    border-left: 3px solid #49aef1;
+}
+
+.testimonial6 .testi6 .nav-link.active img {
+    opacity: 1;
+}
+
+.testimonial6 .btn-danger {
+    background: #ea4dff !important;
+    border: 1px solid #ea4dff !important;
+}
+
+.testimonial6 .btn-md {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lg1seen,
+.lg2seen {
+    text-align: center;
+    background-color: #ffffff !important;
+    padding: 1rem;
+    border: 1px solid rgba(120, 130, 140, 0.13);
+    box-shadow: 0px 0px 3rem 10px #49aef136;
+}
+
+.ul1 {
+    list-style: url(../images/icon/4.png);
+}
+
+
+/* special doctor section start  */
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #167ac6 !important;
+}
+
+@media (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+
+.padding {
+    padding: 5rem
+}
+
+.sectionab2 {
+    background-color: #F3F3F3 !important;
+}
+
+.uk-hr,
+.hr1 {
+    border-top: 5px solid #396CF0 !important;
+    width: 5%;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 11px;
+    outline: none;
+}
+
+.card .card-body {
+    padding: 1rem 1rem
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+p {
+    font-size: 0.875rem;
+    margin-bottom: .5rem;
+    line-height: 1.5rem
+}
+
+h4 {
+    line-height: .2 !important
+}
+
+.profile {
+    margin-top: 16px;
+    margin-left: 11px
+}
+
+.profile-pic {
+    width: 100%;
+}
+
+.cust-name {
+    font-size: 18px;
+}
+
+.cust-profession {
+    font-size: 10px;
+}
+
+.items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px
+}
+
+.slick-slide {
+    margin: 10px
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #167ac6 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.containerab1 {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: #4D7BF1;
+    overflow: hidden !important;
+    border-radius: 50% !important;
+}
+
+.containerab1:hover .overlay {
+    opacity: 75%;
+}
+
+.icon {
+    color: white;
+    /* font-size: 100px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fa-user:hover {
+    color: #eee;
+}
+
+.h4hover {
+    /* color: #49aef1 !important; */
+    transition: 1s ease;
+}
+
+.h4hover:hover {
+    color: #3E70F0 !important;
+}
+
+
+/* special doctor section end  */
+
+@media (max-width: 767px) {
+    .lg1seen {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .lg2seen {
+        display: none !important;
+    }
+}

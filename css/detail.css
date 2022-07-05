@@ -1,0 +1,14 @@
+.sectiondet1 {
+    background: url("../images/bg/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    /* height: 100vh !important; */
+    overflow: hidden;
+}
+
+ul li span {
+    position: absolute;
+    right: 3rem;
+}

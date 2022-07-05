@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(-90deg, #ee7752, #536cc0, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.mtopab-5 {
+    margin-top: 8rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.btn2 {
+    background-color: #3E70F0;
+    transition: 500ms ease-in;
+    border-radius: 10px;
+    color: #ffffff;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.btn2:hover {
+    color: #ffffff;
+}
+
+.form-controlapp1 {
+    background: transparent !important;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+    font-family: 'Chivo', sans-serif;
+}

@@ -1,0 +1,48 @@
+.sectioncontact1 {
+    background: url("../images/bg/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    /* height: 100vh !important; */
+    overflow: hidden;
+}
+
+.mtopab-5 {
+    margin-top: 8rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.btn2 {
+    background-color: #3E70F0;
+    transition: 500ms ease-in;
+    border-radius: 10px;
+    color: #ffffff;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.btn2:hover {
+    color: #ffffff;
+}
+
+.map-container-6 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-6 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.blue {
+    background-image: linear-gradient(to right top, #45c8fb, #0da7eb, #0086d7, #1164bf, #3041a1);
+    padding: 1rem;
+    color: white;
+}
